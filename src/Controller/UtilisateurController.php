@@ -8,10 +8,10 @@ use Symfony\Component\Routing\Attribute\Route;
 
 final class UtilisateurController extends AbstractController
 {
-    #[Route('/utilisateur', name: 'app_utilisateur_controller')]
+    #[Route('/utilisateur', name: 'app_utilisateur_controlleur')]
     public function index(): Response
     {
-        return $this->render('utilisateur_controller/index.html.twig', [
+        return $this->render('utilisateur_controlleur/index.html.twig', [
             'controller_name' => 'UtilisateurController',
         ]);
     }
